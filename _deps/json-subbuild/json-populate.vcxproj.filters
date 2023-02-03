@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\5ea15c80f7186697eb654f4ab7eef94e\json-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\5ea15c80f7186697eb654f4ab7eef94e\json-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\5ea15c80f7186697eb654f4ab7eef94e\json-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\5ea15c80f7186697eb654f4ab7eef94e\json-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\5ea15c80f7186697eb654f4ab7eef94e\json-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\5ea15c80f7186697eb654f4ab7eef94e\json-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\5ea15c80f7186697eb654f4ab7eef94e\json-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\5ea15c80f7186697eb654f4ab7eef94e\json-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\13466346b1e1a841f8d3a79bc8e2c03e\json-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\41f158bd599bfd4f393cb4242636f2b8\json-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\json-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\YimMenu\_deps\json-subbuild\CMakeFiles\json-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F91F8CDA-59F7-3556-9246-885B1C591520}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

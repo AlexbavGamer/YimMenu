@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/g3log-populate"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/87f7f15edfe2af447821b4ec44f6b143/g3log-populate.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/9525e96020c8024a095606620f1ae743/g3log-populate-complete.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/fcf803447006aef7192b1571ef76d3a3/g3log-populate-build.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/fcf803447006aef7192b1571ef76d3a3/g3log-populate-configure.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/fcf803447006aef7192b1571ef76d3a3/g3log-populate-download.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/fcf803447006aef7192b1571ef76d3a3/g3log-populate-install.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/fcf803447006aef7192b1571ef76d3a3/g3log-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/fcf803447006aef7192b1571ef76d3a3/g3log-populate-patch.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/fcf803447006aef7192b1571ef76d3a3/g3log-populate-test.rule"
+		},
+		{
+			"file" : "D:/YimMenu/_deps/g3log-subbuild/CMakeFiles/fcf803447006aef7192b1571ef76d3a3/g3log-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"g3log-populate"
+		],
+		"name" : "g3log-populate"
+	}
+}

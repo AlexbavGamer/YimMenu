@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\00034cf90d7c28f75ad23164b7b751e4\gtav_classes-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\00034cf90d7c28f75ad23164b7b751e4\gtav_classes-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\00034cf90d7c28f75ad23164b7b751e4\gtav_classes-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\00034cf90d7c28f75ad23164b7b751e4\gtav_classes-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\00034cf90d7c28f75ad23164b7b751e4\gtav_classes-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\00034cf90d7c28f75ad23164b7b751e4\gtav_classes-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\00034cf90d7c28f75ad23164b7b751e4\gtav_classes-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\00034cf90d7c28f75ad23164b7b751e4\gtav_classes-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\c99d39f0164fc8c0a34df62a80ebc84b\gtav_classes-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\9d1d891b669bc55aa962c33b71916817\gtav_classes-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\YimMenu\_deps\gtav_classes-subbuild\CMakeFiles\gtav_classes-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B016543F-9A00-301D-AB47-F7E44B00FEB2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

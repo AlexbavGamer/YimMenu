@@ -1,0 +1,3 @@
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/curl-populate.dir
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/ZERO_CHECK.dir

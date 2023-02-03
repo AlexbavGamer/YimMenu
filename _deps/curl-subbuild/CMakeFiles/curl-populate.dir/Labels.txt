@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/curl-populate
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/99bf5e3bb074c72f72496687ec29d0b4/curl-populate.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/434dd92d734fbf9051b27e3c232e20c0/curl-populate-complete.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/f61a9abc651e08c2648c65c0281ea877/curl-populate-build.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/f61a9abc651e08c2648c65c0281ea877/curl-populate-configure.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/f61a9abc651e08c2648c65c0281ea877/curl-populate-download.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/f61a9abc651e08c2648c65c0281ea877/curl-populate-install.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/f61a9abc651e08c2648c65c0281ea877/curl-populate-mkdir.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/f61a9abc651e08c2648c65c0281ea877/curl-populate-patch.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/f61a9abc651e08c2648c65c0281ea877/curl-populate-test.rule
+D:/YimMenu/_deps/curl-subbuild/CMakeFiles/f61a9abc651e08c2648c65c0281ea877/curl-populate-update.rule

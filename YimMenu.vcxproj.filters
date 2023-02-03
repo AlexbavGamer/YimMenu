@@ -1,0 +1,1760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\YimMenu\CMakeFiles\YimMenu.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\backend.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\bool_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\misc\recovery.cpp">
+      <Filter>src\backend\commands\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\bail_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\breakup_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\complaint_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\end_session_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\gamer_instruction_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\lost_connection_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\null_function_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\oom_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\kick\script_host_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\misc\clear_wanted_level.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\misc\enter_interior.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\misc\give_ammo.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\misc\give_armor.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\misc\give_health.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\misc\join_ceo.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\misc\steal_identity.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\misc\steal_outfit.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\ceo_kick.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\explode_player.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\force_into_mission.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\give_all_weapons.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\kick_from_interior.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\kick_from_vehicle.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\kill_player.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\ragdoll_player.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\remove_all_weapons.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\send_fake_ban_message.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\send_sext.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\send_to_apartment.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\send_to_interior.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\send_to_island.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\send_to_warehouse.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\set_wanted_level.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\show_transaction_error.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\start_script.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\trigger_ceo_raid.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\toxic\turn_into_beast.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\troll\bring.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\troll\remote_control_vehicle.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\troll\set_bounty.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\troll\teleport.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\player\troll\teleport_into_vehicle.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\self\clean_player.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\self\fill_inventory.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\self\heal.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\self\skip_cutscene.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\self\suicide.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\spawn\spawn_vehicle.cpp">
+      <Filter>src\backend\commands\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\system\fast_quit.cpp">
+      <Filter>src\backend\commands\system</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\teleport\bring_personal_vehicle.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\teleport\teleport_to_last_vehicle.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\teleport\teleport_to_objective.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\teleport\teleport_to_personal_vehicle.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\commands\teleport\teleport_to_waypoint.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\context\chat_command_context.cpp">
+      <Filter>src\backend\context</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\context\default_command_context.cpp">
+      <Filter>src\backend\context</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\int_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\hud\hud_transition_state.cpp">
+      <Filter>src\backend\looped\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\player\good_options.cpp">
+      <Filter>src\backend\looped\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\player\remote_control_vehicle.cpp">
+      <Filter>src\backend\looped\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\player\spectate.cpp">
+      <Filter>src\backend\looped\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\player\toxic_options.cpp">
+      <Filter>src\backend\looped\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\beast_jump.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\clean_player.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\dance_mode.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\fast_respawn.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\free_cam.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\godmode.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\hud.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\invisibility.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\mobile_radio.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\no_collision.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\no_ragdoll.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\no_water_collision.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\noclip.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\off_radar.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\part_water.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\police.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\ptfx.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\super_jump.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\super_run.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\self\unlimited_oxygen.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\session\auto_kick_host.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\session\block_jobs.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\session\force_thunder.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\session\local_time.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\session\pop_multiplier_areas.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\session\randomize_ceo_colors.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\system\auto_tp_to_waypoint.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\system\desync_kick_protection.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\system\mission_creator.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\system\self_globals.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\system\spoofing.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\system\update_pointers.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\tunables\disable_phone.cpp">
+      <Filter>src\backend\looped\tunables</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\auto_drive.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\block_homing.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\boost_behavior.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\drive_on_water.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\fly.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\horn_boost.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\instant_brake.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\invisibility.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\keep_vehicle_repaired.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\ls_customs.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\no_water_collision.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\rgb_paint.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\seatbelt.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\speedo_meter.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\turn_signals.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\vehicle_god.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\vehicle\vehicle_jump.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\ammo_special_type.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\cage_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\custom_gun_disable_control_action.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\delete_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\force_crosshairs.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\gravity_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\increase_damage.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\infinite_ammo.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\infinite_mag.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\no_recoil.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\no_spread.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\rapid_fire.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\repair_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\steal_vehicle_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\weapons\vehicle_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\world\spawn_ped.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped\world\train.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\looped_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\player_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\reactions\interloper_reaction.cpp">
+      <Filter>src\backend\reactions</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\backend\reactions\reaction.cpp">
+      <Filter>src\backend\reactions</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\core\globals.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\crossmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\detour_hook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\fiber_pool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\file_manager\file.cpp">
+      <Filter>src\file_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\file_manager\folder.cpp">
+      <Filter>src\file_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\fonts\icons.cpp">
+      <Filter>src\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\fonts\storopia.cpp">
+      <Filter>src\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gta\fidevice.cpp">
+      <Filter>src\gta</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gta\script_handler.cpp">
+      <Filter>src\gta</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\button.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\custom_text.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\icon.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\input_text.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\input_text_with_hint.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\nav_button.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\nav_item.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\script_patch_checkbox.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\selectable.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\small.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\sub_title.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\components\title.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_brakes.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_gearing.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_general.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_other.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_roll_centre_height.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_rollbars.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_steering.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_suspension.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_traction.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_transmission.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\handling_current_profile.cpp">
+      <Filter>src\gui\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\handling_saved_profiles.cpp">
+      <Filter>src\gui\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\gui\handling\modals\save_handling.cpp">
+      <Filter>src\gui\handling\modals</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooking.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\gui\swap_chain_present.cpp">
+      <Filter>src\hooks\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\gui\swap_chain_resizebuffers.cpp">
+      <Filter>src\hooks\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\gui\wndproc.cpp">
+      <Filter>src\hooks\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\info\get_network_event_data.cpp">
+      <Filter>src\hooks\info</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\info\prepare_metric_for_sending.cpp">
+      <Filter>src\hooks\info</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\check_chat_profanity.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\get_label_text.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\nt_query_virtual_memory.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\process_matchmaking_find_response.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\queue_dependency.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\send_chat_message.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\send_chat_net_message.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\serialize_join_request_message.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\serialize_player_data_msg.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\sort_session_details.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\misc\start_matchmaking_find_sessions.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\player_management\assign_physical_index.cpp">
+      <Filter>src\hooks\player_management</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\player_management\network_player_mgr.cpp">
+      <Filter>src\hooks\player_management</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\add_player_to_session.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\can_apply_data.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\constraint_attachment_crash.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\fragment_physics_crash.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\handle_join_request.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\increment_stat_event.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\infinite_train_crash.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\invalid_decal.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\invalid_mods_crash_detour.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\receive_net_message.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\received_array_update.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\received_clone_create.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\received_clone_sync.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\received_event.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\script_event_handler.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\serialize_dynamic_entity_game_state_data_node.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\serialize_ped_inventory_data_node.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\serialize_take_off_ped_variation_task.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\serialize_vehicle_gadget_data_node.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\protections\update_presence_attribute.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\script\gta_thread_kill.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\script\gta_thread_start.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\script\init_native_tables.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\script\script_handler.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\script\script_vm.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\spoofing\read_bitbuffer_gamer_handle.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\spoofing\send_net_info_to_lobby.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\spoofing\send_session_matchmaking_attributes.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\spoofing\write_bitbuffer_gamer_handle.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\spoofing\write_player_game_state_data_node.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\spoofing\write_player_gamer_data_node.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\hooks\toxic\broadcast_net_array.cpp">
+      <Filter>src\hooks\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\invoker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\memory\batch.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\memory\byte_patch.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\memory\module.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\memory\pattern.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\memory\range.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\native_hooks\native_hooks.cpp">
+      <Filter>src\native_hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\packet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\pointers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\renderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\script.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\script_function.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\script_global.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\script_local.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\script_mgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\api\api_service.cpp">
+      <Filter>src\services\api</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\context_menu\context_menu_service.cpp">
+      <Filter>src\services\context_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\creator_storage\creator_storage_service.cpp">
+      <Filter>src\services\creator_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\custom_text\custom_text_callbacks.cpp">
+      <Filter>src\services\custom_text</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\custom_text\custom_text_service.cpp">
+      <Filter>src\services\custom_text</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\friends\friends_service.cpp">
+      <Filter>src\services\friends</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\globals\globals_service.cpp">
+      <Filter>src\services\globals</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\gta_data\cache_file.cpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\gta_data\gta_data_service.cpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\gta_data\yim_fipackfile.cpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\gui\gui_service.cpp">
+      <Filter>src\services\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\hotkey\hotkey.cpp">
+      <Filter>src\services\hotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\hotkey\hotkey_service.cpp">
+      <Filter>src\services\hotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\matchmaking\matchmaking_service.cpp">
+      <Filter>src\services\matchmaking</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\mobile\mobile_service.cpp">
+      <Filter>src\services\mobile</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\model_preview\model_preview_service.cpp">
+      <Filter>src\services\model_preview</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\notifications\notification_service.cpp">
+      <Filter>src\services\notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\pickups\pickup_service.cpp">
+      <Filter>src\services\pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\player_database\player_database_service.cpp">
+      <Filter>src\services\player_database</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\players\player.cpp">
+      <Filter>src\services\players</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\players\player_service.cpp">
+      <Filter>src\services\players</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\script_patcher\script_patch.cpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\script_patcher\script_patcher_service.cpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\translation_service\translation_service.cpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\vehicle\handling_profile.cpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\vehicle\handling_service.cpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\vehicle\persist_car_service.cpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\services\vehicle_helper\vehicle_helper.cpp">
+      <Filter>src\services\vehicle_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\thread_pool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\version.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\core\view_active_view.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\core\view_heading.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\core\view_navigation.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\core\view_notifications.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\core\view_overlay.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\core\view_root.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\debug\view_debug.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\debug\view_debug_globals.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\debug\view_debug_locals.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\debug\view_debug_misc.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\debug\view_debug_script_events.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\debug\view_debug_scripts.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\debug\views_debug_logs.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\esp\view_esp.cpp">
+      <Filter>src\views\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\network\view_missions.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\network\view_player_database.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\network\view_session.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\network\view_session_browser.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\network\view_spoofing.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\players\player\player_info.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\players\player\player_kick.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\players\player\player_misc.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\players\player\player_toxic.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\players\player\player_troll.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\players\view_player.cpp">
+      <Filter>src\views\players</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\players\view_players.cpp">
+      <Filter>src\views\players</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\self\view_mobile.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\self\view_self.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\self\view_teleport.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\self\view_weapons.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_context_menu_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_esp_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_gui_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_hotkey_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_protection_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_reaction_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_stat_editor.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\settings\view_translation_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\vehicle\view_fun_vehicle.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\vehicle\view_lsc.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\vehicle\view_persist_car.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\vehicle\view_pv.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\vehicle\view_spawn_vehicle.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\vehicle\view_vehicle.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\view_context_menu.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\view_gta_data.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\world\view_creator.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\world\view_spawn_ped.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\world\view_time_and_weather.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\world\view_train.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\views\world\view_water.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\YimMenu\src\vmt_hook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\YimMenu\src\backend\backend.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\bool_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\context\chat_command_context.hpp">
+      <Filter>src\backend\context</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\context\command_context.hpp">
+      <Filter>src\backend\context</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\context\default_command_context.hpp">
+      <Filter>src\backend\context</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\int_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\looped\looped.hpp">
+      <Filter>src\backend\looped</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\looped_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\player_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\reactions\interloper_reaction.hpp">
+      <Filter>src\backend\reactions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\reactions\reaction.hpp">
+      <Filter>src\backend\reactions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\backend\script_patches.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\benchmark.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\common.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\apartment_names.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\block_join_reasons.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\bullet_impact_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\command_access_levels.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\custom_weapons.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\hud_component_names.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\infractions.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\language_codes.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\levels.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\lsc_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\packet_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\ptfx_effects.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\region_codes.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\session_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\special_ammo_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\speed_units.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\data\warehouse_names.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\enums.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\globals.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\core\scr_globals.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\crossmap.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\detour_hook.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\fiber_pool.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\file_manager.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\file_manager\file.hpp">
+      <Filter>src\file_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\file_manager\folder.hpp">
+      <Filter>src\file_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\fonts\fonts.hpp">
+      <Filter>src\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\function_types.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\blip.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\color.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\decal_controller.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\enums.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\fidevice.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\fwddec.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\gxt2.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\joaat.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\matrix.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\natives.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\net_array.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\net_game_event.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\net_object_mgr.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\node_list.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\ped_factory.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\pickup_rewards.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\replay.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\script_handler.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\script_id.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\script_program.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\script_thread.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\sysMemAllocator.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\tls_context.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\vehicle_values.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\vehicles.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta\weapons.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gta_util.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gui.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gui\components\components.hpp">
+      <Filter>src\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\gui\handling\current_profile\current_profile_tabs.hpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\hooking.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\invoker.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\json_util.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\logger.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\memory\all.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\memory\batch.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\memory\byte_patch.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\memory\fwddec.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\memory\handle.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\memory\module.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\memory\pattern.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\memory\range.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\native_hooks\all_scripts.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\native_hooks\am_launcher.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\native_hooks\carmod_shop.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\native_hooks\creator.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\native_hooks\freemode.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\native_hooks\native_hooks.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\native_hooks\network_session_host.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\native_hooks\shop_controller.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\natives.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\packet.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\pointers.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\renderer.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\script.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\script_function.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\script_global.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\script_local.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\script_mgr.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\api\api_service.hpp">
+      <Filter>src\services\api</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\context_menu\context_menu_service.hpp">
+      <Filter>src\services\context_menu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\creator_storage\creator_storage_service.hpp">
+      <Filter>src\services\creator_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\custom_text\custom_text_callbacks.hpp">
+      <Filter>src\services\custom_text</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\custom_text\custom_text_service.hpp">
+      <Filter>src\services\custom_text</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\friends\friends_service.hpp">
+      <Filter>src\services\friends</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\globals\globals_service.hpp">
+      <Filter>src\services\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\gta_data\cache_file.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\gta_data\gta_data_service.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\gta_data\ped_item.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\gta_data\vehicle_item.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\gta_data\weapon_item.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\gta_data\yim_fipackfile.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\gui\gui_service.hpp">
+      <Filter>src\services\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\hotkey\hotkey.hpp">
+      <Filter>src\services\hotkey</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\hotkey\hotkey_service.hpp">
+      <Filter>src\services\hotkey</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\matchmaking\matchmaking_service.hpp">
+      <Filter>src\services\matchmaking</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\mobile\mobile_service.hpp">
+      <Filter>src\services\mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\model_preview\model_preview_service.hpp">
+      <Filter>src\services\model_preview</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\notifications\notification_service.hpp">
+      <Filter>src\services\notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\pickups\pickup_service.hpp">
+      <Filter>src\services\pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\player_database\persistent_player.hpp">
+      <Filter>src\services\player_database</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\player_database\player_database_service.hpp">
+      <Filter>src\services\player_database</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\players\player.hpp">
+      <Filter>src\services\players</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\players\player_service.hpp">
+      <Filter>src\services\players</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\players\rate_limiter.hpp">
+      <Filter>src\services\players</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\script_patcher\script_data.hpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\script_patcher\script_patch.hpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\script_patcher\script_patcher_service.hpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\translation_service\local_index.hpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\translation_service\remote_index.hpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\translation_service\translation_entry.hpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\translation_service\translation_service.hpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\vehicle\handling_profile.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\vehicle\handling_service.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\vehicle\model_attachment.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\vehicle\persist_car_service.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\services\vehicle_helper\vehicle_helper.hpp">
+      <Filter>src\services\vehicle_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\thread_pool.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\all.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\animator.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\blip.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\entity.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\globals.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\local_player.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\math.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\misc.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\mobile.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\model_info.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\notify.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\ped.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\scripts.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\session.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\spam.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\system.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\teleport.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\toxic.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\train.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\troll.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\vehicle.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\util\world_model.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\version.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\views\debug\view_debug.hpp">
+      <Filter>src\views\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\views\esp\view_esp.hpp">
+      <Filter>src\views\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\views\view.hpp">
+      <Filter>src\views</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\vmt_hook.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\widgets\imgui_bitfield.hpp">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\src\widgets\imgui_hotkey.hpp">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\CMakeFiles\YimMenu.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\CMakeFiles\YimMenu.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\CMakeFiles\YimMenu.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\YimMenu\CMakeFiles\YimMenu.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\YimMenu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="D:\YimMenu\src\hooks\protections\sound_overload_detour_asm.asm">
+      <Filter>src\hooks\protections</Filter>
+    </MASM>
+    <MASM Include="D:\YimMenu\src\invoker_asm.asm">
+      <Filter>src</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{DB44EC54-4635-343F-9E90-EF306CE0C68B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6E08D568-2C7D-3A14-B07B-38615A9CF441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{E76E4C9C-0740-3271-94F1-336062FB33C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend">
+      <UniqueIdentifier>{A0E9E7EB-DF8E-3491-8E02-2B057767D20E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands">
+      <UniqueIdentifier>{F95FBF1E-D3F2-383D-BACF-4C54C77D9D13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\misc">
+      <UniqueIdentifier>{15DB20B4-9CAB-3CA9-837F-784D31997C7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player">
+      <UniqueIdentifier>{70F3E9E9-C17A-3546-8DBE-B1481ED6BEFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\kick">
+      <UniqueIdentifier>{E8F76C54-5A46-3032-8CAF-F4756986E2A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\misc">
+      <UniqueIdentifier>{5992D142-05EA-3913-9D0A-E099F7584E29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\toxic">
+      <UniqueIdentifier>{A2002E97-AD9F-3A47-881E-9830298A00CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\troll">
+      <UniqueIdentifier>{4B50FC73-D245-3124-A69F-546B91BF09AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\self">
+      <UniqueIdentifier>{ED27DDB0-7387-32E9-8EBB-E71BB560B8F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\spawn">
+      <UniqueIdentifier>{E7122FF8-3353-3992-A893-579A005EA39C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\system">
+      <UniqueIdentifier>{5528087F-4B28-3B28-83CC-EDA7E40DF8E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\teleport">
+      <UniqueIdentifier>{00F03578-EC16-3130-B99A-1B2266988FF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\context">
+      <UniqueIdentifier>{ADDD2BDC-BFB5-3532-A884-4F5485AEAD4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped">
+      <UniqueIdentifier>{328218D4-DAC6-3A48-8153-E55A17A5AA88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\hud">
+      <UniqueIdentifier>{0A64DF44-ACCC-3EA9-B9DE-79B09B0F62F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\player">
+      <UniqueIdentifier>{38DE569A-387D-3D67-814E-8B71E23FC44A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\self">
+      <UniqueIdentifier>{F57DCE73-CA5A-3568-B83E-DCE9F4004BDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\session">
+      <UniqueIdentifier>{77FBCC88-07D4-3F7D-B790-83EF47714267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\system">
+      <UniqueIdentifier>{B99DCBAA-8338-3BD8-BB0C-7A9767F1B907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\tunables">
+      <UniqueIdentifier>{E89B95DA-4076-3029-895F-8CF6452DEFAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\vehicle">
+      <UniqueIdentifier>{1A25DEDE-3516-3321-B250-A80F50FC3521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\weapons">
+      <UniqueIdentifier>{A81DDC7F-21ED-3021-9422-10A60D93D138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\world">
+      <UniqueIdentifier>{ACD87F31-F0A2-3F85-A776-14D8D83D5F0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\reactions">
+      <UniqueIdentifier>{DB42F1A5-FF6E-315D-B946-B0A908559211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{8B011643-6165-338F-9A73-A8089A9F4C1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\data">
+      <UniqueIdentifier>{2060ADB4-0D7D-3A86-8CD7-65049D991C5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file_manager">
+      <UniqueIdentifier>{862EAED2-18B6-3A16-86A1-EF39BA5034FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fonts">
+      <UniqueIdentifier>{A9F00F20-9015-3E37-9C94-92E0D5B22F97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gta">
+      <UniqueIdentifier>{019B8C21-48D7-350C-AE92-A007C06C3859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{90E3D11F-5C8C-3BBC-9BE2-CA8741C6AA75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\components">
+      <UniqueIdentifier>{CC76F3B9-7CAC-3E97-AE1D-41937F6EC43C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\handling">
+      <UniqueIdentifier>{6D65270D-D1D0-3227-8913-5B0F6EBD2EB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\handling\current_profile">
+      <UniqueIdentifier>{903742D9-F6CB-3367-BF1F-9976977D556B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\handling\modals">
+      <UniqueIdentifier>{F38A8530-0BB1-37A6-8D42-D5AE1F4B2EEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks">
+      <UniqueIdentifier>{3C77AFCA-CC26-35AF-AE0E-7CF17653430E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\gui">
+      <UniqueIdentifier>{56DEDFA2-3638-3461-9E10-B16080D70EB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\info">
+      <UniqueIdentifier>{598332AB-C894-30B0-B842-46C17BEE77BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\misc">
+      <UniqueIdentifier>{87ECA91C-542A-3154-9F92-844BFA67D214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\player_management">
+      <UniqueIdentifier>{DCFAD977-706E-3AFF-9125-62B496D6D0AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\protections">
+      <UniqueIdentifier>{8D08253E-0F3F-390C-8AFC-A1DF359BCE82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\script">
+      <UniqueIdentifier>{1830D743-F84C-33B0-B436-92AABD752EF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\spoofing">
+      <UniqueIdentifier>{AAA10041-834F-3265-AC72-42B463536F00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\toxic">
+      <UniqueIdentifier>{5F474044-4AC6-3DC4-9E97-8A208273CDF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{23FA9373-CC95-3F20-BE0D-10C9F8648F8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\native_hooks">
+      <UniqueIdentifier>{71043881-08F6-3319-A435-8AF58DE96719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services">
+      <UniqueIdentifier>{0CAA0D26-87E2-35F4-A9E4-87D1A7492FB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\api">
+      <UniqueIdentifier>{93116412-56EE-3EBD-B12F-F6685C48C7B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\context_menu">
+      <UniqueIdentifier>{32A27C17-A9BE-3B12-A80F-A84F7DF0811F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\creator_storage">
+      <UniqueIdentifier>{8AC451FC-AFA4-3FED-83FF-6C3F7997F21A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\custom_text">
+      <UniqueIdentifier>{613B08BD-392B-363C-9700-7A49076545A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\friends">
+      <UniqueIdentifier>{1602E5CB-2C5C-399E-8777-30549466D76D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\globals">
+      <UniqueIdentifier>{2250B96E-89DC-30E6-B008-F2A62D30457B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\gta_data">
+      <UniqueIdentifier>{071F4951-602C-3711-B0F7-C72B1858CA88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\gui">
+      <UniqueIdentifier>{9C400933-C044-3E84-96F2-F448455DE256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\hotkey">
+      <UniqueIdentifier>{8E254E88-2881-35AB-88BA-5FD31A5189F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\matchmaking">
+      <UniqueIdentifier>{8996844D-B9F2-3B7B-A693-99C2A7C58F2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\mobile">
+      <UniqueIdentifier>{2136E5CA-30A3-3204-9A56-87C14AB62723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\model_preview">
+      <UniqueIdentifier>{9F517C45-E8F5-3AF0-9258-4CD54CFAD574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\notifications">
+      <UniqueIdentifier>{1B51A9F2-36B5-3120-B4CD-547368D56658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\pickups">
+      <UniqueIdentifier>{40F093E4-8C58-328A-B870-9187779F5442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\player_database">
+      <UniqueIdentifier>{2AC5B1DE-B6DF-3C3B-A0F4-88384E3CB4D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\players">
+      <UniqueIdentifier>{BDF6DEC3-502D-352E-9B16-5FB01CCEC1B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\script_patcher">
+      <UniqueIdentifier>{C0784A5C-A05B-336A-AC8E-EBFA745B4583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\translation_service">
+      <UniqueIdentifier>{79DC6322-2D3B-39B7-88BE-57E42BCFF826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\vehicle">
+      <UniqueIdentifier>{6191E3F5-69CF-38D0-A94D-578EF4BEEF3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\vehicle_helper">
+      <UniqueIdentifier>{1E428859-B28B-308B-9716-CCEACA6C10CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{1BEF80FA-A659-31E7-B32C-6B1A9595522A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views">
+      <UniqueIdentifier>{5EDAE217-D1E9-3925-8DAE-70B704B8DCFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\core">
+      <UniqueIdentifier>{1AD53514-A4E1-35D0-ACF1-2DC9EC515754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\debug">
+      <UniqueIdentifier>{D1423220-3336-3F00-BA9A-CE0DB4C2BD91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\esp">
+      <UniqueIdentifier>{B444CA71-57B6-38D6-A380-5282C2CCB22B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\network">
+      <UniqueIdentifier>{1938DC79-E60B-3446-9B72-BFC5FE0987D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\players">
+      <UniqueIdentifier>{3C6E0AB4-FE75-3119-AEE4-83BFDE7C3724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\players\player">
+      <UniqueIdentifier>{B1D3803B-0FE3-3A09-85BA-C95CDB5096F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\self">
+      <UniqueIdentifier>{2DA4076C-DC71-34EE-B34E-0F0A91587781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\settings">
+      <UniqueIdentifier>{78B12CE3-B30A-3EE4-98FC-995ABB6FAE6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\vehicle">
+      <UniqueIdentifier>{024EEEEC-5AEA-3FA9-BE11-FC495B7CB5E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\world">
+      <UniqueIdentifier>{18A75BD4-5FE0-3B17-89EF-502707F10676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets">
+      <UniqueIdentifier>{24776183-0802-38B8-A757-831D23F5154D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

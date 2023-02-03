@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\9b15d3e08c330f9abc727a1181932cf2\minhook-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\9b15d3e08c330f9abc727a1181932cf2\minhook-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\9b15d3e08c330f9abc727a1181932cf2\minhook-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\9b15d3e08c330f9abc727a1181932cf2\minhook-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\9b15d3e08c330f9abc727a1181932cf2\minhook-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\9b15d3e08c330f9abc727a1181932cf2\minhook-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\9b15d3e08c330f9abc727a1181932cf2\minhook-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\9b15d3e08c330f9abc727a1181932cf2\minhook-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\8dc1bdd860f69ff6b8cd83e565f09bbf\minhook-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\4b68a968d20171548215cc7b81f3176a\minhook-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\minhook-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B23171A9-93D4-3898-A21C-A075D4344792}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

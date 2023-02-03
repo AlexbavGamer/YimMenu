@@ -1,0 +1,37 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeASM_MASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+D:/YimMenu/CMakeFiles/3.25.2/CMakeASM_MASMCompiler.cmake
+D:/YimMenu/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake
+D:/YimMenu/CMakeFiles/3.25.2/CMakeRCCompiler.cmake
+D:/YimMenu/CMakeFiles/3.25.2/CMakeSystem.cmake
+D:/YimMenu/CMakeLists.txt
+D:/YimMenu/scripts/cpr.cmake
+D:/YimMenu/scripts/g3log.cmake
+D:/YimMenu/scripts/git.cmake
+D:/YimMenu/scripts/gtav-classes.cmake
+D:/YimMenu/scripts/imgui.cmake
+D:/YimMenu/scripts/json.cmake
+D:/YimMenu/scripts/minhook.cmake
+D:/YimMenu/scripts/pugixml.cmake
+D:/YimMenu/src/version.cpp.in

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\YimMenu\_deps\minhook-subbuild\CMakeFiles\4b68a968d20171548215cc7b81f3176a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B23171A9-93D4-3898-A21C-A075D4344792}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

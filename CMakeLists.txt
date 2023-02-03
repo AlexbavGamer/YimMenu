@@ -18,7 +18,7 @@ include(scripts/cpr.cmake)
 message("\nFetching custom modules")
 include(scripts/imgui.cmake)
 include(scripts/gtav-classes.cmake)
-
+add_subdirectory(external/lua)
 
 # YimMenu
 message(STATUS "YimMenu")
@@ -45,7 +45,7 @@ target_include_directories(YimMenu PRIVATE
 )
 
 target_precompile_headers(YimMenu PRIVATE "${SRC_DIR}/common.hpp")
-target_link_libraries(YimMenu PRIVATE pugixml minhook g3log imgui cpr)
+target_link_libraries(YimMenu PRIVATE pugixml minhook g3log imgui cpr lua::lib)
 
 # Warnings as errors
 set_property(TARGET YimMenu PROPERTY COMPILE_WARNING_AS_ERROR ON)

@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Templates/CPackConfig.cmake.in
+D:/YimMenu/_deps/g3log-src/Build.cmake
+D:/YimMenu/_deps/g3log-src/CMakeLists.txt
+D:/YimMenu/_deps/g3log-src/CPackLists.txt
+D:/YimMenu/_deps/g3log-src/GenerateMacroDefinitionsFile.cmake
+D:/YimMenu/_deps/g3log-src/Options.cmake
+D:/YimMenu/_deps/g3log-src/example/Example.cmake
+D:/YimMenu/_deps/g3log-src/iOSBuild.cmake
+D:/YimMenu/_deps/g3log-src/test_performance/Performance.cmake
+D:/YimMenu/_deps/g3log-src/test_unit/Test.cmake
