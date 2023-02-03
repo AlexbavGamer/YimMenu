@@ -1,3 +1,0 @@
-D:/YimMenu/_deps/cpr-subbuild/CMakeFiles/cpr-populate.dir
-D:/YimMenu/_deps/cpr-subbuild/CMakeFiles/ALL_BUILD.dir
-D:/YimMenu/_deps/cpr-subbuild/CMakeFiles/ZERO_CHECK.dir

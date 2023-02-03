@@ -1,5 +1,0 @@
-# CMake generation dependency list for this directory.
-D:/YimMenu/_deps/curl-build/lib/Makefile.inc.cmake
-D:/YimMenu/_deps/curl-src/lib/CMakeLists.txt
-D:/YimMenu/_deps/curl-src/lib/Makefile.inc
-D:/YimMenu/_deps/curl-src/lib/curl_config.h.cmake
