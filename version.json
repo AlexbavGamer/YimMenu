@@ -1,5 +1,5 @@
 {
 	"file": "YimMenu.dll", // path to the dll file on the webserver starting from the root / is prefixed in the binary
 	"version": "0.0.1", // human readable version number
-	"version_machine": 0.1 // version number that the injector will compare against
+	"version_machine": 1 // version number that the injector will compare against
 }
